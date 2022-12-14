@@ -2,7 +2,7 @@ function Title() {
     return (
     <div className="Title">
         <h1>Count Orlock</h1>
-        <h3>"The Bird of Death"</h3>
+        <h5>"The Bird of Death"</h5>
         <a href="https://www.nosferatumovie.com/">thecreationofbelial.de</a>
     </div>
     );

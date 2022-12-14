@@ -38,3 +38,7 @@ body {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
 }
+
+.About > p, h3 {
+  text-align: left;
+}
