@@ -1,11 +1,13 @@
+import ProfilePic from "./components/js/profile-pic"
+import About from "./components/js/about"
 
 function App() {
   return (
     <div className="App">
-        <p>
-          Edited and reloaded. I have nosik now.
-        </p>
+      <ProfilePic />
+      <About />
     </div>
+   
   );
 }
 
