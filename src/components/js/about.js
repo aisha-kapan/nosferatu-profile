@@ -1,6 +1,6 @@
 function About() {
     return (
-    <div>
+    <div className="About">
         <h1>About</h1>
         <p>Reclusive charismatic bachelor and castle owner investing in real estate overseas. Any enquiries must be negotiated through my personal agent Knock.</p>
         <h1>Interests</h1>
