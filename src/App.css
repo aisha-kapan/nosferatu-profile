@@ -47,6 +47,7 @@ html, body {
 
 .MailButton > i {
   padding-right: 10px;
+  font-size: 15px;
 }
 
 .ProfilePic {
@@ -55,7 +56,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.About > p, h3 {
+.About > p, h4 {
   text-align: left;
   margin: 5px;
 }
@@ -69,14 +70,17 @@ html, body {
   font-size: 12px;
 }
 
-.About > h3 {
+.About > h4 {
   color: var(--light);
+  font-weight: 700;
 }
 
 .Title > h1 {
   color: var(--white);
   margin: 0;
   padding: 20px 0px 0px;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 
