@@ -37,8 +37,13 @@ body {
 .ProfilePic {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .About > p, h3 {
   text-align: left;
+}
+
+.About {
+  padding: 15px;
 }
