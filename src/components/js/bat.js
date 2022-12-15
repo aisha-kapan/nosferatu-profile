@@ -1,4 +1,4 @@
-import bat from "../images/bat.png"
+import bat from "../images/bat-white.png"
  
 function Bat() {
     return (
