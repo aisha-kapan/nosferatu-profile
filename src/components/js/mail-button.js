@@ -1,6 +1,6 @@
 function MailButton() {
     return (
-        <button className="MailButton">Correspondence by Letter</button>
+        <button className="btn btn-light MailButton"><i class="fa fa-envelope"></i>Correspondence by Letter</button>
     )
 }
 

@@ -41,6 +41,12 @@ html, body {
 
 .MailButton {
   margin: 20px; 
+  padding: 7px 55px 7px;
+  font-size: 14px;
+}
+
+.MailButton > i {
+  padding-right: 10px;
 }
 
 .ProfilePic {
