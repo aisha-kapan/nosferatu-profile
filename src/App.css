@@ -1,8 +1,17 @@
 html, body {
   height: 100%;
-}
-body {
   margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  --dark-background-color: #23252C;
+  --dark-blue: #1A1B21;
+  --light: #F5F5F5;
+  --white: #FFFFFF;
+  --gray: #DCDCDC;
+  --yellow: #F3BF99;
 }
 
 .App {
@@ -14,8 +23,8 @@ body {
   justify-content: space-between;
   margin: 5em;
   border-radius: 10px;
-  background-color: #310825;
-  color: #F5F5F5;
+  background-color: var(--dark-blue);
+  
 }
 
 .AppWrapper {
@@ -23,7 +32,7 @@ body {
   justify-content: center;
   max-width: 100%;
   height: 100%;
-  background-color: #64134c;
+  background-color: var(--dark-background-color);
 }
 
 .Bat {
@@ -31,7 +40,7 @@ body {
 }
 
 .MailButton {
-  margin: 10px;;
+  margin: 20px; 
 }
 
 .ProfilePic {
@@ -42,8 +51,40 @@ body {
 
 .About > p, h3 {
   text-align: left;
+  margin: 5px;
 }
 
 .About {
-  padding: 15px;
+  padding: 10px 35px 35px;
+}
+
+.About > p {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+.About > h3 {
+  color: var(--light);
+}
+
+.Title > h1 {
+  color: var(--white);
+  margin: 0;
+  padding: 20px 0px 0px;
+}
+
+
+.Title > h5 {
+  color: var(--yellow);
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 0px 8px;
+}
+
+.Title > a {
+  color: var(--light);
+  font-size: 12px;
+  padding: 10px 0px 0px;
+  line-height: 10px;
 }
